@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  /* Fixa o elemento na tela, mesmo ao rolar a página */
+  top: 0;
+  /* Posiciona no topo */
+  width: 100%;
+  /* Ocupa 96% da largura da tela */
+  display: flex;
+  /* Ativa o Flexbox */
+  justify-content: space-between;
+  /* Espaça os elementos igualmente nas extremidades */
+  align-items: center;
+  /* Alinha verticalmente no centro */
+  padding: 30px 40px;
+  /* Espaçamento interno (30px vertical, 40px horizontal) */
+  background-color: rgba(134, 255, 179, 0.753);
+  /* Fundo preto semitransparente */
+  z-index: 1000;
+  /* Fica acima de outros elementos */
+  backdrop-filter: blur(5px);
+  /* efeito de vidro */
+
+}
+
+body {
+  margin: 0;
+  display: center;
+  /* Ativa Flexbox */
+  padding-top: 15vh;
+   /* Afasta proporcionalmente da parte de cima */
+  text-align: center;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.1;
+}
