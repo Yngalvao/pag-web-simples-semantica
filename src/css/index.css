@@ -1,0 +1,167 @@
+.navbar {
+  position: fixed;
+  /* Fixa o elemento na tela, mesmo ao rolar a página */
+  top: 0;
+  /* Posiciona no topo */
+  width: 100%;
+  /* Ocupa 96% da largura da tela */
+  display: flex;
+  /* Ativa o Flexbox */
+  justify-content: space-between;
+  /* Espaça os elementos igualmente nas extremidades */
+  align-items: center;
+  /* Alinha verticalmente no centro */
+  padding: 30px 40px;
+  /* Espaçamento interno (30px vertical, 40px horizontal) */
+  background-color: rgba(134, 255, 179, 0.753);
+  /* Fundo preto semitransparente */
+  z-index: 1000;
+  /* Fica acima de outros elementos */
+  backdrop-filter: blur(5px);
+  /* efeito de vidro */
+
+}
+
+.navbar a {
+  color: #01240e;
+  /* cor inicial do link */
+  text-decoration: none;
+  /* remove sublinhado */
+  margin-left: 45px;
+  /* espaço entre os links */
+  font-weight: bold;
+  /* deixa o texto em negrito */
+  transition: color 0.5s;
+  /* transição suave da cor */
+}
+
+.navbar a:hover {
+  color: #32944e;
+  /* cor quando o mouse passa */
+}
+
+body {
+  margin: 0;
+  display: grid;
+  /* Ativa Grid */
+  place-items: center;
+  /* Centraliza na horizontal e vertical */
+  padding-top: 8vh;
+  /* Mantém afastado do topo */
+  text-align: center;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #01240e;
+  /* Cor do texto */
+  font-size: 3em;
+  /* Tamanho grande */
+  line-height: 1.1;
+  /* Espaçamento entre linhas */
+
+}
+
+.images {
+  /* container das imagens */
+  display: flex;
+  flex-direction: row;
+  /* coloca lado a lado */
+  align-items: flex-start;
+  /* alinha no topo */
+  justify-content: flex-start;
+  /* mantém alinhadas à esquerda */
+  padding: 150px 100px 0 100px;
+  /* espaço ao redor */
+  height: 100%;
+  gap: 50px;
+  /* espaço entre as imagens */
+}
+
+.image1 {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  /* bordas arredondadas */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  /* sombras nas bordas */
+}
+
+.image2 {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  /* bordas arredondadas */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  /* sombras nas bordas */
+}
+
+.image3 {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  /* bordas arredondadas */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  /* sombras nas bordas */
+}
+
+.text-title {
+    display: flex;
+    justify-content: center; /* centraliza tudo */
+    gap: 30px; /* espaço entre os textos */
+    padding: 20px 10px;
+}
+
+.text-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    width: 300px; /* largura fixa */
+    text-align: center;
+
+}
+
+.image4 {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  border-radius: 10px;
+  /* bordas arredondadas */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  /* sombras nas bordas */
+}
+
+.text-title-two {
+    display: flex;
+    justify-content: center; /* centraliza tudo */
+    gap: 50px; /* espaço entre os textos */
+    padding: 20px 10px;
+}
+
+.text-box-two {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    width: 600px; /* largura fixa */
+    text-align: center;
+
+}
+
+.text-title-conclusao {
+    display: flex;
+    justify-content: center; /* centraliza tudo */
+    gap: 30px; /* espaço entre os textos */
+    padding: 20px 10px;
+}
+
+.text-box-conclusão {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    width: 300px; /* largura fixa */
+    text-align: center;
+
+}
