@@ -10,6 +10,32 @@ body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
+.buttonVoltar {
+  display: inline-block;
+  /* Faz o link se comportar como um bloco, para aceitar padding */
+  padding: 10px 20px;
+  /* Espaço interno: 10px vertical, 20px horizontal */
+  background-color: #75be8d;
+  /* Cor de fundo do botão */
+  color: #01240e;
+  /* Cor do texto */
+  text-decoration: none;
+  /* Remove o sublinhado do link */
+  border-radius: 5px;
+  /* Cantos arredondados */
+  font-weight: bold;
+  /* Texto em negrito */
+  transition: background 0.3s;
+  /* Transição suave de cor ao passar o mouse */
+  text-decoration: none;
+  /* Remove o sublinhado do link */
+}
+
+.buttonVoltar:hover {
+  background-color: #4e8d5f;
+  /* Cor do botão quando o mouse passa por cima */
+}
+
 h1 {
   color: #01240e;
   /* Cor do texto */
@@ -17,11 +43,57 @@ h1 {
   /* Tamanho grande */
   line-height: 1.1;
   /* Espaçamento entre linhas */
-
 }
 
-.images {
-  /* container das imagens */
+.text-title {
+  display: flex;
+  justify-content: center;
+  /* centraliza tudo */
+  gap: 30px;
+  /* espaço entre os textos */
+  padding: 20px 10px;
+}
+
+.text-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  /* largura fixa */
+  text-align: center;
+}
+
+.image4 {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  border-radius: 10px;
+  /* bordas arredondadas */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  /* sombras nas bordas */
+}
+
+.text-title-two {
+  display: flex;
+  justify-content: center;
+  /* centraliza tudo */
+  gap: 50px;
+  /* espaço entre os textos */
+  padding: 20px 10px;
+}
+
+.text-box-two {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  /* largura fixa */
+  text-align: center;
+}
+
+.images{
   display: flex;
   flex-direction: row;
   /* coloca lado a lado */
@@ -36,90 +108,12 @@ h1 {
   /* espaço entre as imagens */
 }
 
-.image1 {
-  width: 350px;
+.image {
+  width: 300px;
   height: auto;
   border-radius: 10px;
   /* bordas arredondadas */
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
   /* sombras nas bordas */
-}
-
-.image2 {
-  width: 350px;
-  height: auto;
-  border-radius: 10px;
-  /* bordas arredondadas */
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-  /* sombras nas bordas */
-}
-
-.image3 {
-  width: 350px;
-  height: auto;
-  border-radius: 10px;
-  /* bordas arredondadas */
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-  /* sombras nas bordas */
-}
-
-.text-title {
-    display: flex;
-    justify-content: center; /* centraliza tudo */
-    gap: 30px; /* espaço entre os textos */
-    padding: 20px 10px;
-}
-
-.text-box {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
-    width: 300px; /* largura fixa */
-    text-align: center;
-
-}
-
-.image4 {
-  width: 100%;
-  height: auto;
-  justify-content: center;
-  border-radius: 10px;
-  /* bordas arredondadas */
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-  /* sombras nas bordas */
-}
-
-.text-title-two {
-    display: flex;
-    justify-content: center; /* centraliza tudo */
-    gap: 50px; /* espaço entre os textos */
-    padding: 20px 10px;
-}
-
-.text-box-two {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
-    width: 600px; /* largura fixa */
-    text-align: center;
-
-}
-
-.text-title-conclusao {
-    display: flex;
-    justify-content: center; /* centraliza tudo */
-    gap: 30px; /* espaço entre os textos */
-    padding: 20px 10px;
-}
-
-.text-box-conclusão {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
-    width: 300px; /* largura fixa */
-    text-align: center;
-
+  
 }
